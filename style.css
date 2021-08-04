@@ -1,0 +1,36 @@
+p.one{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 20% round;
+}
+p.two{
+    border: 1px solid ;
+    padding: 10px;
+    box-shadow: 5px 10px 10px 5px rebeccapurple ;
+  /*box shadow: horizontal offset, vertical offset, blur, spread, color */ 
+}
+p.three{
+    border: 1px solid ;
+    padding: 10px;
+    box-shadow: 5px 10px 10px 5px rgb(28, 3, 250),5px 10px 10px 10px red, 5px 10px 10px 15px rgb(228, 231, 5) ;   
+}
+p.four{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+p.five{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 20px 10px;
+}
+p.six{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 80px 50px;
+}
+p.seven{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 100px;
+}
